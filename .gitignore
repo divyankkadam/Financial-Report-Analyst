@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# IDE & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data & logs
+backend/data/uploads/*
+backend/data/vectorstore/*
+backend/data/*.json
+backend/logs/*
+backend/*.log
+!backend/data/uploads/.gitkeep
+!backend/data/vectorstore/.gitkeep
+!backend/logs/.gitkeep
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.next/
+frontend/.cache/
+frontend/dist/
+frontend/.env*
+
+# OS generated files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
