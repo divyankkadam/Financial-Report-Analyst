@@ -7,7 +7,7 @@ from functools import lru_cache
 class Settings(BaseSettings):
     # ── HuggingFace ────────────────────────────────────────────────────────────
     hf_token:           str   = ""
-    hf_llm_model:       str   = "meta-llama/Llama-3.1-8B-Instruct"
+    hf_llm_model:       str   = "meta-llama/Llama-3.2-3B-Instruct"
     hf_embedding_model: str   = "sentence-transformers/all-MiniLM-L6-v2"
 
     # ── Provider selection ─────────────────────────────────────────────────────
